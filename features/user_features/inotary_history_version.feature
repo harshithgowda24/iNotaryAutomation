@@ -1,4 +1,5 @@
 @view_journal
+
 Feature: View journal entry
 As a User
 I should be able to redirect to view screen

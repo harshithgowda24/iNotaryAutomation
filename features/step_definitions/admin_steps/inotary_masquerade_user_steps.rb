@@ -46,8 +46,7 @@ Given(/^I will click on Stop Masquerade button from Username Dropdown$/) do
 	on @site, :admin_navigate_page do |masquerade|
 masquerade.verify_username
 end
-	on @site, :admin_page do |masquerade|
-		
+	on @site, :admin_page do |masquerade|		
 masquerade.stop_masquerade_button
 end
 end

@@ -1,4 +1,5 @@
 @user_login
+
 Feature: Landing page
 As a user
 I want to see the landing page

@@ -1,4 +1,5 @@
 @edit_journal
+
 Feature: edit journal entry
 As a User
 I should be able to redirect to edit jounral screen

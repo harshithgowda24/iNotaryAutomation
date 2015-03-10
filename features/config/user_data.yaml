@@ -3,7 +3,7 @@ admin_user:
   password: Qwinix123
 
 common_user:
-  username : test_7@yopmail.com #john10@yopmail.com #john13@yopmail.com #john14@yopmail.com #john17@yopmail.com
+  username : john13@yopmail.com 
   password : Qwinix123
 
 invalid_user:

@@ -11,7 +11,6 @@ When I click on search button
 Then I should see the user searched for
 
 @smoke_masquerade
-
 Scenario: Masquerade user account
 
 Given I will click on Masquerade button by selecting some user

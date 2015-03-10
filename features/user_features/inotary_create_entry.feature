@@ -1,4 +1,5 @@
 @create
+
 Feature: Create Journal Entry
 As a Free User
 I should be able to see create journal entry screen

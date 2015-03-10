@@ -22,7 +22,7 @@ features/admin_features/inotary_add_coupon.feature : 710
 features/admin_features/inotary_admin_preferences.feature : 700
 features/admin_features/inotary_admin_logout.feature : 680
 
-#User
+# User
 
 features/user_features/inotary_signup.feature : 650
 features/user_features/inotary_user_login.feature : 600

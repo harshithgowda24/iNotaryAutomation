@@ -1,4 +1,5 @@
 @create
+
 Feature: Create Journal Entry
 As a Business User
 I should be able to create journal entry by loading a favorite

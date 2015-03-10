@@ -49,6 +49,7 @@ end
 end
 
 #Edit 
+
 Given(/^I click on edit icon of existing coupon$/) do
 on @site, :admin_page do |add_coupon|
 add_coupon.edit_coupon_icon

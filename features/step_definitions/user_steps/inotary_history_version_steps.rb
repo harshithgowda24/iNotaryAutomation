@@ -14,6 +14,8 @@ puts view.view_journal_entry
 end
 end
 
+#History
+
 Given(/^I click on History button$/) do
     on @site, :action_page do |email_history|
 puts email_history.history

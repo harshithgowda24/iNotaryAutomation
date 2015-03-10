@@ -1,4 +1,3 @@
-
 Given(/^I click on Forgot password link$/) do
   on @site, :signup_page do |home|
 home.forgot_password_link

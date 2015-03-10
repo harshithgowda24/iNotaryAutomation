@@ -1,6 +1,6 @@
 @user_logout
-Feature: logout
 
+Feature: logout
 As a User
 I should be able to logout from the application
 So that I can login as other users

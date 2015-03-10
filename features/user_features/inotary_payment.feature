@@ -1,4 +1,5 @@
 @payment
+
 Feature: Payment
 As a User
 I should be able to upgrade to Business

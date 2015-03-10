@@ -1,5 +1,3 @@
-#Search for a user
-
 Given(/^I enter email address in to search box$/) do
 @site = "iNotary".downcase
 visit @site, :admin_page

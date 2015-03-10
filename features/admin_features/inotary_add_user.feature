@@ -1,4 +1,4 @@
-@add_user
+@add_new_user
 
 Feature: Add user details
 As a Admin
@@ -6,7 +6,7 @@ I should be able to see Add user screen
 So that I can Add a new user
  
 
-@smoke_add
+@smoke_add_user
 Scenario Outline: Add new user with valid data
 
 Given I click on Add User button
@@ -21,11 +21,11 @@ When I hit Add User button
 Then I should see user created succesfully 
 
 Examples:
-|firstname|lastname|email                        |password |confirm  |
+|firstname|lastname|email                         |password |confirm  |
 |john     |dr      |john19@yopmail.com            |Qwinix123|Qwinix123|
 
 
-@negative_add
+@negative_add_user
 
 Scenario Outline: Add new user with repeated data
 
@@ -43,5 +43,5 @@ When I hit Add User button
 Then I still should be in add user screen
 
 Examples:
-|firstname|lastname|email                        |password |confirm  |
+|firstname|lastname|email                         |password |confirm  |
 |john     |dr      |john19@yopmail.com            |Qwinix123|Qwinix123|

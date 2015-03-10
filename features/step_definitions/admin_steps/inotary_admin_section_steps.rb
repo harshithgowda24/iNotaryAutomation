@@ -1,5 +1,3 @@
-#Redirect to Admin Panel
-
 Given(/^I select Adminstrative Tools option from Dropdown$/) do
  on @site, :admin_navigate_page do |open|
 open.verfiy_admin_tools

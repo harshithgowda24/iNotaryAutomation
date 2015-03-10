@@ -1,5 +1,3 @@
-#Block an Unblock User
-
 Given(/^I will click on Block button by selecting some user$/) do 
 on @site, :admin_page do |block|
 puts block.block_button

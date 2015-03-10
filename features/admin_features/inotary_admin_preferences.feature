@@ -20,6 +20,7 @@ Then I should see the fields that got updated
 
 @smoke_add_act
 Scenario: Add act
+
 Given I navigate to Notarial Act screen
 And I add a new notarial act
 Then I should be able to see the act in the list

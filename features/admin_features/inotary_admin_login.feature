@@ -1,4 +1,4 @@
-@login
+@admin_login
 
 Feature: Landing page
 As a Admin
