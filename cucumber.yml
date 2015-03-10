@@ -1,0 +1,4 @@
+default: -r features --tags ~@known_issue --tags ~@wip --tags ~@not_started --tags ~@inprogress --tags ~@skip --color --format pretty --format html -o iNotary_functional_tests_results.html --dotcucumber features/.cucumber
+
+ci_default: -r features DISPLAY=:99.0 HEADLESS=true --tags ~@known_issue --tags ~@wip --tags ~@not_started --tags ~@inprogress --tags ~@skip --format progress --format html -o results.html --format junit -o junit
+

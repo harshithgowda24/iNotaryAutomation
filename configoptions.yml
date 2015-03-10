@@ -1,0 +1,4 @@
+global:
+    browser : firefox            #possible values: ie, ff, chrome
+    url     : "https://st.plist.qwinixtech.com"
+

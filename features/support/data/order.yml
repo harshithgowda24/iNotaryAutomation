@@ -1,0 +1,39 @@
+##
+# iNotary - Ruby Cucumber Automation
+#
+# Revision History:
+# -----------------
+# Creator Name  : Qwinix QA
+# Modifier By   : <Harshith>
+#
+# @description: This file contains execution order of features. The highest number features executes first in the order
+
+#
+# Admin 
+features/admin_features/inotary_admin_login.feature : 780
+features/admin_features/inotary_admin_section.feature : 770
+features/admin_features/inotary_add_user.feature : 765
+features/admin_features/inotary_search_user.feature : 760
+features/admin_features/inotary_block_user.feature : 750
+features/admin_features/inotary_edit_user_details.feature : 740
+features/admin_features/inotary_filter_user.feature : 730
+features/admin_features/inotary_masquerade_user.feature : 720
+features/admin_features/inotary_add_coupon.feature : 710
+features/admin_features/inotary_admin_preferences.feature : 700
+features/admin_features/inotary_admin_logout.feature : 680
+
+#User
+
+features/user_features/inotary_signup.feature : 650
+features/user_features/inotary_user_login.feature : 600
+features/user_features/inotary_create_entry.feature : 500
+features/user_features/inotary_payment.feature : 440
+features/user_features/inotary_add_favorite.feature : 430
+features/user_features/inotary_create_entry_by_loading_favorite.feature : 420
+features/user_features/inotary_search_edit.feature : 410
+features/user_features/inotary_history_version.feature : 400
+features/user_features/inotary_email_print.feature : 390
+features/user_features/inotary_my_account.feature : 380
+features/user_features/inotary_user_logout.feature : 360
+features/user_features/inotary_forgot_password.feature : 350
+

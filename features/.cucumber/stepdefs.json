@@ -1,0 +1,1392 @@
+[
+  {
+    "source": "^I click on coupon button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see Manage Coupons screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Add New coupon button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see Add Coupon screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter coupon code$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter percentage$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:33",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Create Coupon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:39",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see newly added coupon in manage coupon screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:45",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on edit icon of existing coupon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:52",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I modify percentage$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:58",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see updated coupon percentage$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:64",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on delete icon of existing coupon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:72",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should not see the coupon in the list$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:78",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see both fields with error messages$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:86",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see coupon already taken$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:92",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Add User button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see Add User screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter user firstname (.*)$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter user lastname (.*)$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter user email (.*)$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:28",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter user password (.*)$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:34",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter password to confirm (.*)$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:40",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select state from state field$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:47",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I hit Add User button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:54",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see user created succesfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:60",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see all the fields highlighted with error messages$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:69",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I still should be in add user screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:75",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Home page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_login_steps.rb:1",
+    "steps": [
+      {
+        "name": "I am on Home page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Customer Login button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_login_steps.rb:9",
+    "steps": [
+      {
+        "name": "I click on Customer Login button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Login page for the user should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_login_steps.rb:15",
+    "steps": [
+      {
+        "name": "Login page for the user should be displayed",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I login as a admin$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_login_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Sign In button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_login_steps.rb:28",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^List view page for the user should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_login_steps.rb:34",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Adminstrative Preferences option from Dropdown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should navigate to Admin Preferences screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select some state from the dropdown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enable disable block some fields$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:19",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Save button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:25",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the fields that got updated$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:31",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to Notarial Act screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:37",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a new notarial act$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:43",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to see the act in the list$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:49",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I try to create empty notarial act$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:57",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on delete button of existing Act$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:65",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should not see that act in the list$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:71",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Logout option from Dropdown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:80",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be logged out from the application$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:86",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Adminstrative Tools option from Dropdown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_section_steps.rb:3",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should navigate to Admin screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_section_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I will click on Block button by selecting some user$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_block_user_steps.rb:3",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see User blocked successfully flash message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_block_user_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Edit in admin section$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:3",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see edit user details screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select pro option from add subscription Dropdown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select start date$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select end date$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Update$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:33",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see user updated successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:39",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I clear value from all the fields$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:48",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see errors$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:54",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on close button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:60",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should exit from the pop up$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:66",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on change user password button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:74",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see change password screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:80",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter password that are same$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:86",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see user password updated successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:92",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter password that does not match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:100",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on change password button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:106",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see error messages in change password screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:112",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select owner$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:3",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on filter button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:11",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the result$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Admin$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:23",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Manager$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:29",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Viewer$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:35",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Author$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:41",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select User$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:47",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Reset button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:53",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see Default User list$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:59",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Free$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:67",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Pro$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:76",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Business$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:82",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Free Pro Subscription$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:88",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Free Business Subscription$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:94",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I will click on Masquerade button by selecting some user$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be redirected to user landing screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Create New Entry button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be redirected to create new journal entry screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:19",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill in application mandatory fields with valid data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:26",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Save All$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:33",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be redirected back to journal list screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:39",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I will click on Stop Masquerade button from Username Dropdown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:45",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be redirected back to admin panel$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:55",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter email address in to search box$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_search_user_steps.rb:3",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on search button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_search_user_steps.rb:11",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the user searched for$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_search_user_steps.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Preferences option from Dropdown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should navigate to Preferences screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on edit favorites tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:14",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a new favorite client$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:20",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click save$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:26",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see Favorite created successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:32",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on edit favorites documents tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:39",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a new favorite document$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:45",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click save to save favorite$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:52",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see Favorite document created successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:58",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I load the existing favorite$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_by_loading_favorite_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I load the existing document$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_by_loading_favorite_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add another client by loading favorite$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_by_loading_favorite_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Create New Entry$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in create new journal screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill in mandatory fields with valid information$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Save All button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see journal entry in journal list screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on share icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see email\\/print journal screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I redact some of the fields$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on preview button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Email button in preview screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Forgot password link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_forgot_password_steps.rb:2",
+    "steps": [
+      {
+        "name": "I click on Forgot password link",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Reset password button by entering email address$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_forgot_password_steps.rb:8",
+    "steps": [
+      {
+        "name": "I click on Reset password button by entering email address",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see flash message displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_forgot_password_steps.rb:15",
+    "steps": [
+      {
+        "name": "I should see flash message displayed",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on view icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:3",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see view journal screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:11",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on History button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see history screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:23",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Email button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:26",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter email addresses$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:32",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on submit button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:38",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see flash message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:44",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on version button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:52",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see all the version with the changes$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:58",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Username Dropdown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select My Account option from Dropdown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should navigate to My Account screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Edit icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see edit details screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I update few field values$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:33",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see error message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:39",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter valid current password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:45",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on save$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:51",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see updated last name in my account screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:57",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Logout$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:65",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I hit Create New Entry$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Upgrade button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:11",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on buynow button in pricing plans screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter valid shipping details$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:23",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Review Order button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:29",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Pay now button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:35",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see thank you page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:41",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter client firstname into search box$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on search icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see journal entry searched for$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on edit icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:23",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see edit journal screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:31",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I modify some fields data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:37",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to save the changes$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:43",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Create Account button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^Signup page for the user should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I Enter all valid Details$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Join For Free button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:19",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see alert pop up$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:25",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on cancel should be in Signup screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:31",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^confirmation message should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:37",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I Enter all invalid Details$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:44",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I still should be in signup screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:51",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I login as a common user$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_user_login_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see please specify email and password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_user_login_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I login as a non existing user to inotary$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_user_login_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see Invalid email or password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_user_login_steps.rb:22",
+    "steps": [
+
+    ]
+  }
+]
