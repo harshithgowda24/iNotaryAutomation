@@ -2,8 +2,8 @@ require 'cucumber'
 require 'cucumber/rake/task'
 
 Cucumber::Rake::Task.new(:cucumber) do |t|
-  t.profile = 'ci'
+  t.profile = 'ci_default'
 end
 
-task :default => :cucumber
+task :ci_default => :cucumber
 
