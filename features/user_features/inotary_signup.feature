@@ -16,8 +16,8 @@ Feature: Sign Up
   Scenario: invalid signup
 
   Given I click on Join For Free button
+  Then I should see all the fields with error messages
   Given I Enter all invalid Details
-  When I click on Join For Free button
   Then I still should be in signup screen 
 
 @smoke_signup
@@ -29,7 +29,7 @@ Feature: Sign Up
   
   And I click on cancel should be in Signup screen
   When I click on Join For Free button
-  Then confirmation message should be displayed
+  Then I should see signin flash message
 
 
   

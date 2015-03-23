@@ -45,7 +45,7 @@ end
 
 Then(/^I should see flash message$/) do
   on @site, :action_page do |email_history|
-puts email_history.verify_flash_msg
+puts email_history.flash_msg_after_document_history_sent
 end
 end
 

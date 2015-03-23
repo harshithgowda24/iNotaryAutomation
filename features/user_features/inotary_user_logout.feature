@@ -1,12 +1,12 @@
 @user_logout
 
-Feature: logout
+Feature: Logout
 As a User
 I should be able to logout from the application
 So that I can login as other users
 
 
-@logout
+@smoke_user_logout
 Scenario: logout feature for user 
 
 Given I click on Username Dropdown

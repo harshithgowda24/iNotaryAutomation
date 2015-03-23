@@ -4,7 +4,7 @@ module WatirPageHelper::Inotary
   module LoginPage
     extend WatirPageHelper::ClassMethods
     
-    direct_url "http://it.inotary.qwinixtech.com/"
+    direct_url "http://uat.inotary.qwinixtech.com/"
      
 	def click_customer_login
         @browser.a(:xpath, "//div[2]/ul/li[7]/ul/li[2]/a").wait_until_present
@@ -66,7 +66,7 @@ module WatirPageHelper::Inotary
 	def blank_fields
 	if @browser.span(:xpath,"//form[@id='user_sign_in']/div[*]/div/span").exists?
 		return "Please specify firstname and lastname"
-  else
+    else
 	raise Exception.new "Error messages are not displaying"
    end
    end
@@ -77,8 +77,27 @@ module WatirPageHelper::Inotary
     	if @browser.div(:xpath, "//div[@id='div_flash_message']").exists?
            return "Invalid Credentials"
         else
-	raise Exception.new "Error messages are not displaying"
+	      raise Exception.new "Error messages are not displaying"
+      end
    end
+
+   #Blocked User sign in 
+
+  def blocked_user_credentials
+  	@browser.text_field(:id, "user_email").set("johnjam4@yopmail.com")
+	@browser.text_field(:id, "user_password").set("Qwinix123")
+	@browser.button(:xpath, "//div[1]/form/div[5]/div[1]/div/button").click
+  end
+
+  def flash_message_for_blocked_user
+	@browser.a(:xpath, "//div[2]/ul/li[7]/ul/li[2]/a").wait_until_present
+     flash = @browser.div(:xpath, "//div/div[3]/div/div/div").text
+     flash_text = "Your account has been disabled. Please contact Administrator at info@myinotary.com"
+	if flash.include? flash_text
+	return "Your account has been disabled. Please contact Administrator at info@myinotary.com"
+  else
+	raise Exception.new "No error message displayed"
+	end
    end
 
 end

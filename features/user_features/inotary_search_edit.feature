@@ -1,6 +1,6 @@
 @edit_journal
 
-Feature: edit journal entry
+Feature: Edit journal entry
 As a User
 I should be able to redirect to edit jounral screen
 So that I can edit few fields

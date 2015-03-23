@@ -1,6 +1,6 @@
 @favorite
 
-Feature: favorite
+Feature: Favorite
 As a User
 I should be able to add a favorite
 So that i can load it while creating favorite

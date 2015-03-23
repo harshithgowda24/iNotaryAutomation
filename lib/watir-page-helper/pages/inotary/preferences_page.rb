@@ -2,7 +2,7 @@ module WatirPageHelper::Inotary
   module PreferencesPage
     extend WatirPageHelper::ClassMethods
     
-    direct_url "http://it.inotary.qwinixtech.com/"
+    direct_url "http://uat.inotary.qwinixtech.com/"
      
    #Redirecting User to Admin Screen
 
@@ -55,20 +55,10 @@ module WatirPageHelper::Inotary
      verify_acts = @browser.a(:xpath, "//div[2]/div[4]/div[1]/div[1]/ul/li[2]/a")
         if verify_acts.exists?
           verify_acts.click
-          return "notarial act is displaying"
+          return "notarial act Screen is displaying"
       else
-         raise Exception.new "notarial act is not displaying"
+         raise Exception.new "notarial act screen is not displaying"
       end 
-    end
-
-    def verify_notarail_act_list
-    sleep 3
-    ele = @browser.a(:xpath, "//div[2]/table/tbody/tr[7]/td[8]/a")
-    if ele.exists?
-      puts "Verify Act - New act created"
-    else
-      raise Exception.new "Act not created"
-    end
     end
 
     def empty_notarial_act
@@ -90,18 +80,21 @@ module WatirPageHelper::Inotary
     @browser.button(:xpath, "//div[2]/div/div[1]/div[2]/div/button").click
     @browser.text_field(:id, "inotary_act_name").wait_until_present
     @browser.text_field(:id, "inotary_act_name").set("Verify Act")
+    @browser.button(:xpath, "//div[2]/form/div[3]/button").wait_until_present 5
     @browser.button(:xpath, "//div[2]/form/div[3]/button").when_present.click
-    sleep 5
+    sleep 3
     end
 
-  #   def verify_notarial_act_error
-  #    error = @browser.span(:xpath, "//div[6]/div/div/div/div[2]/form/div[2]/span")
-  #    if error.present?
-  #     raise Exception.new "Notarial act is already been taken"
-  #   else
-  #     return "Notarial act created successfully"
-  #   end
-  # end
+    def verify_notarail_act_list
+    sleep 8
+    ele = @browser.td(:xpath, "//div[3]/form/div[2]/table/tbody/tr[7]/td[5]").text
+    ele_text = "Verify Act"
+    if ele.include? ele_text
+      return "Verify Act"
+    else
+      raise Exception.new "Act not created"
+    end
+    end
 
    def delete_button
     @browser.a(:xpath, "//div[2]/table/tbody/tr[7]/td[8]/a").when_present.click
@@ -166,11 +159,12 @@ module WatirPageHelper::Inotary
 
     def save_button
     @browser.button(:xpath,"//div[3]/div/form/div[5]/div[2]/button").when_present.click
+    sleep 5
     end
 
     def fav_pop_up
-    sleep 5
-    @browser.a(:xpath,"//div[18]/div/div/div[3]/a").when_present.click
+    @browser.a(:xpath,"//div[18]/div/div/div[3]/a").wait_until_present 10
+    @browser.a(:xpath,"//div[18]/div/div/div[3]/a").click
     @browser.select_list(:id, "favorite_id").wait_until_present
     @browser.select_list(:id, "favorite_id").select("Add a Favorite")
     sleep 5
@@ -204,11 +198,12 @@ module WatirPageHelper::Inotary
 
     def save_doc_info_button
     @browser.button(:xpath,"//div[3]/div/form/div[4]/button").when_present.click
+    sleep 5
     end
 
     def fav_doc_pop_up
-      sleep 5
-    @browser.a(:xpath,"//div[21]/div/div/div[3]/a").when_present.click
+    @browser.a(:xpath,"//div[21]/div/div/div[3]/a").wait_until_present 10
+    @browser.a(:xpath,"//div[21]/div/div/div[3]/a").click
     @browser.select_list(:id, "document_favorite_id").wait_until_present
     @browser.select_list(:id, "document_favorite_id").select("Add a Favorite Document")
     sleep 5

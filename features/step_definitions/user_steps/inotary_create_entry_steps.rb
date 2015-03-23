@@ -29,3 +29,10 @@ Then(/^I should see journal entry in journal list screen$/) do
 puts create.verify_list_page
 end
 end
+
+And(/^I add new client by clicking on add another client link$/) do
+on @site, :create_page do |create|
+puts create.add_another_client
+create.add_another_client_details
+end
+end

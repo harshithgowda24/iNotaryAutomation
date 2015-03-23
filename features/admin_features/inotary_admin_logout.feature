@@ -1,6 +1,6 @@
-@logout
+@admin_logout
 
-Feature: logout
+Feature: Logout
 As a Admin
 I should be able to logout from the application
 So that I can login as other users

@@ -34,13 +34,21 @@ home.wait_for_signup_page
 end
 end
 
-Then(/^confirmation message should be displayed$/) do
+Then(/^I should see signin flash message$/) do
   on @site, :signup_page do |home|
-puts home.confirm_email
+puts home.confirm_user
 end
 end
 
 #Invalid Signup
+
+Then(/^I should see all the fields with error messages$/) do
+	on @site, :signup_page do |home|
+puts home.verify_error_messages
+puts home.terms_and_conditions
+ 
+end
+end
 
 Given(/^I Enter all invalid Details$/) do
   on @site, :signup_page do |home|
@@ -51,7 +59,6 @@ end
 
 Then(/^I still should be in signup screen$/) do
 	on @site, :signup_page do |home|
-     home.verify_error_messages
 puts home.existing_email_address
 end
 end

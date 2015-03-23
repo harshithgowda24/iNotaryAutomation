@@ -1,6 +1,6 @@
 @filter_user
 
-Feature: filter user
+Feature: Filter user
 As a Admin
 I should be able to filter users by role
 So that i can diffrentiate easily

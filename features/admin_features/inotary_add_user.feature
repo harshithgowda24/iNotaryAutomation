@@ -22,7 +22,7 @@ Then I should see user created succesfully
 
 Examples:
 |firstname|lastname|email                         |password |confirm  |
-|john     |dr      |john19@yopmail.com            |Qwinix123|Qwinix123|
+|john     |dr      |johnjam4@yopmail.com            |Qwinix123|Qwinix123|
 
 
 @negative_add_user
@@ -44,4 +44,4 @@ Then I still should be in add user screen
 
 Examples:
 |firstname|lastname|email                         |password |confirm  |
-|john     |dr      |john19@yopmail.com            |Qwinix123|Qwinix123|
+|john     |dr      |johnjam4@yopmail.com            |Qwinix123|Qwinix123|

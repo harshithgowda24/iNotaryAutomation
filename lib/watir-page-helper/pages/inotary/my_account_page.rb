@@ -4,7 +4,7 @@ module WatirPageHelper::Inotary
   module MyAccountPage
     extend WatirPageHelper::ClassMethods
     
-    direct_url "http://it.inotary.qwinixtech.com/"
+    direct_url "http://uat.inotary.qwinixtech.com/"
 
       def verify_username
           verify_username = @browser.a(:xpath, "//div/div[2]/ul/li/a")

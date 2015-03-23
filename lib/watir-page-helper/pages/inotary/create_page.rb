@@ -4,7 +4,7 @@ module WatirPageHelper::Inotary
   module CreatePage
     extend WatirPageHelper::ClassMethods
     
-    direct_url "http://it.inotary.qwinixtech.com/"
+    direct_url "http://uat.inotary.qwinixtech.com/"
 
 
     def create_entry_button
@@ -67,11 +67,16 @@ module WatirPageHelper::Inotary
     @browser.input(:xpath, "//div[3]/div[3]/div[1]/div[2]/div/input").send_keys("Green Card") 
     @browser.input(:xpath, "//div[3]/div[3]/div[1]/div[3]/div/div/input[2]").send_keys("07/02/2015")
     @browser.select_list(:xpath, "//div[2]/div/div[6]/div[3]/div[3]/div[1]/div[4]/div/select").select("Acknowledgment")
-
     sleep 1
     @browser.checkbox(:id, "email_checkbox").set
     end
 
+   def add_another_client_details
+    @browser.input(:xpath, "//div[3]/div[2]/div/div[2]/div/div[1]/div[1]/div/input").send_keys("Client")
+    @browser.input(:xpath, "//div[3]/div[2]/div/div[2]/div/div[1]/div[2]/div/input").send_keys("2")
+    @browser.checkbox(:xpath, "//div[3]/div[2]/div/div[8]/div/div[1]/div[5]/div/div[1]/label/input[2]").set
+    @browser.input(:xpath, "//div[3]/div[2]/div/div[8]/div/div[1]/div[5]/div/div[2]/input").send_keys("9886484886")
+   end 
 
     def save_all
     @browser.button(:xpath, "//button[@id='submitButtonId']").when_present.click
@@ -126,7 +131,6 @@ module WatirPageHelper::Inotary
     @browser.text_field(:id, "input_coupon_secret_text").set("qwinix1")
     sleep 3
     @browser.select_list(:id, "credit_card_card_type").select("Visa")
-    @browser.text_field(:id, "credit_card_number").set("123")
     @browser.text_field(:id, "credit_card_number").set("4539279199087547")
     @browser.select_list(:id, "credit_card_expire_month").select("9")
     @browser.select_list(:id, "credit_card_expire_year").select("2023")
@@ -173,7 +177,7 @@ def load_favorite_document
     else
       raise Exception.new "Select drop down is disabled"
   end    
-end
+end 
 
 def add_another_client
   add_client_link = @browser.a(:xpath, "//div[2]/div[4]/form/div[3]/a")

@@ -1,6 +1,6 @@
 @block_unblock_user
 
-Feature: Admin screen
+Feature: Block user
 As a Admin
 I should be able to see Admin panel
 So that I can block or unlock users

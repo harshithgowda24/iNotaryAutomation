@@ -4,7 +4,7 @@ module WatirPageHelper::Inotary
   module AdminPage
     extend WatirPageHelper::ClassMethods
     
-    direct_url "http://it.inotary.qwinixtech.com/admin"
+    direct_url "http://uat.inotary.qwinixtech.com/admin"
      
 #Redirecting User to Admin Screen
 
@@ -38,53 +38,53 @@ module WatirPageHelper::Inotary
   
 
     def add_firstname firstname
-    sleep 3
+    sleep 1
     @browser.input(:xpath,"//div[2]/form/div[3]/input").wait_until_present
     @browser.input(:xpath,"//div[2]/form/div[3]/input").send_keys firstname
     end
 
     def add_lastname lastname
-    sleep 3
+    sleep 1
     @browser.input(:xpath,"//div[2]/form/div[4]/input").wait_until_present
     @browser.input(:xpath,"//div[2]/form/div[4]/input").send_keys lastname
     end
 
     def add_email email
-     sleep 3
+     sleep 1
     @browser.input(:xpath,"//div[2]/form/div[5]/input").wait_until_present
     @browser.input(:xpath,"//div[2]/form/div[5]/input").send_keys email
     end
 
     def add_password password
-     sleep 3
+     sleep 1
     @browser.input(:xpath,"//div[2]/form/div[6]/input").wait_until_present
     @browser.input(:xpath,"//div[2]/form/div[6]/input").send_keys password
     end
 
     def add_confirm confirm
-     sleep 3
+     sleep 1
     @browser.input(:xpath,"//div[2]/form/div[7]/input").wait_until_present
     @browser.input(:xpath,"//div[2]/form/div[7]/input").send_keys confirm
     end
 
     def add_state 
-     sleep 3
+     sleep 1
     @browser.select_list(:xpath,"//div[2]/form/div[8]/select").wait_until_present
     @browser.select_list(:xpath,"//div[2]/form/div[8]/select").select_value('7')
     end
 
     def add_user_button
-    sleep 3
-    @browser.button(:id,"input_user_signin").wait_until_present
-    @browser.button(:id,"input_user_signin").click 
+    sleep 1
+    @browser.button(:id,"input_user_signin").when_present.click
     end
 
     def flash_message_after_create
-    sleep 5
+    sleep 10
+    @browser.a(:xpath, "//div[2]/div[7]/a[2]").wait_until_present
       flash_msg = @browser.p(:xpath, "//div[2]/div[2]/div/p").text
-        ele_text = "User created successfully"
-      if flash_msg.include? ele_text
-         return "User Created Successfully"
+        flash_text = "User created successfully"
+      if flash_msg.include? flash_text
+         return "#{flash_msg}"
       else
        raise Exception.new "User is not created"
      end
@@ -100,12 +100,12 @@ module WatirPageHelper::Inotary
     end
 
     def email_id
-    sleep 5
-      error_msg = @browser.span(:xpath, "//div[6]/div/div/div/div[2]/form/div[5]/span").text
+    sleep 10
+      error_msg = @browser.span(:xpath, "//div[2]/form/div[5]/span").text
         ele_text = "Email is already in use"
       if error_msg.include? ele_text
         @browser.text_field(:id, "user_last_name").clear
-        @browser.text_field(:id, "user_email").set("john20@yopmail.com")
+        @browser.text_field(:id, "user_email").set("johnjam5@yopmail.com")
         @browser.text_field(:id, "user_password_for_admin").set("Qwinix123")
         @browser.text_field(:id, "user_password_confirmation").set("Qwinix123")
         @browser.button(:id,"input_user_signin").click 
@@ -122,7 +122,7 @@ module WatirPageHelper::Inotary
 
     def enter_user_email
    @browser.text_field(:id, "search").wait_until_present
-   @browser.text_field(:id, "search").set("john19@yopmail.com")
+   @browser.text_field(:id, "search").set("johnjam4@yopmail.com")
     end
 
     def click_search_icon
@@ -178,11 +178,12 @@ module WatirPageHelper::Inotary
    end
 
    def flash_message_after_update
-   sleep 5
+      sleep 10
+    @browser.a(:xpath, "//div[2]/div[7]/a[2]").wait_until_present
       flash_msg = @browser.p(:xpath, "//div[2]/div[2]/div/div/p").text
         ele_text = "User updated successfully"
       if flash_msg.include? ele_text
-         return "User updated successfully"
+         return "#{flash_msg}"
       else
        raise Exception.new "User is not updated"
      end
@@ -216,7 +217,7 @@ module WatirPageHelper::Inotary
       @browser.span(:xpath, "//div[6]/div/div/div/div[2]/form/div[6]/span").exists?
       return "Error messages displayed"
      else
-      raise Exception.new "Some fields data may be empty"
+      raise Exception.new "Some fields may be empty"
    end
  end
 
@@ -264,17 +265,19 @@ module WatirPageHelper::Inotary
    end
 
    def flash_message_after_password_update
-   sleep 5
+      sleep 10
+    @browser.a(:xpath, "//div[2]/div[7]/a[2]").wait_until_present
       flash_msg = @browser.p(:xpath, "//div[2]/div[2]/div/p").text
         ele_text = "User password updated successfully"
       if flash_msg.include? ele_text
-         return "User password updated successfully"
+         return "#{flash_msg}"
       else
        raise Exception.new "User is not updated"
      end
     end
 
    def verify_change_password_errors
+    sleep 5
     error_msg = @browser.span(:xpath, "//div[6]/div/div/div/div[2]/form/div[4]/span").text
         ele_text = "Password does not match"
       if error_msg.include? ele_text
@@ -457,11 +460,10 @@ module WatirPageHelper::Inotary
     end
 
     def existing_coupon
-      sleep 3
+      sleep 5
       error_msg = @browser.span(:xpath, "//form[@id='add_coupon_form']/div[2]/span").text
         ele_text = "Coupon has already been taken."
       if error_msg.include? ele_text
-        sleep 3
         return "Coupon has already been taken."
       else
         raise Exception.new "No message displayed"
@@ -504,6 +506,7 @@ module WatirPageHelper::Inotary
     end
 
     def verify_coupon_is_not_present
+    sleep 3
     ele = @browser.img(:xpath, "//div[5]/table/tbody/tr[7]/td[5]/div/a[2]/img")
     if ele.exists?
       raise Exception.new "Coupon not deleted"

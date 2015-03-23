@@ -20,7 +20,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:15",
     "steps": [
+      {
+        "name": "I click on Add New coupon button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -28,7 +33,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:21",
     "steps": [
+      {
+        "name": "I should see Add Coupon screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -36,7 +46,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:27",
     "steps": [
+      {
+        "name": "I enter coupon code",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -44,7 +59,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:33",
     "steps": [
+      {
+        "name": "I enter percentage",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -52,7 +72,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:39",
     "steps": [
+      {
+        "name": "I click on Create Coupon",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -60,63 +85,103 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:45",
     "steps": [
+      {
+        "name": "I should see newly added coupon in manage coupon screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I click on edit icon of existing coupon$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:52",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:53",
     "steps": [
+      {
+        "name": "I click on edit icon of existing coupon",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I modify percentage$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:58",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:59",
     "steps": [
+      {
+        "name": "I modify percentage",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should see updated coupon percentage$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:64",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:65",
     "steps": [
+      {
+        "name": "I should see updated coupon percentage",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I click on delete icon of existing coupon$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:72",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:73",
     "steps": [
+      {
+        "name": "I click on delete icon of existing coupon",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should not see the coupon in the list$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:78",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:79",
     "steps": [
+      {
+        "name": "I should not see the coupon in the list",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should see both fields with error messages$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:86",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:87",
     "steps": [
+      {
+        "name": "I should see both fields with error messages",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should see coupon already taken$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:92",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_add_coupon_steps.rb:93",
     "steps": [
+      {
+        "name": "I should see coupon already taken",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -124,7 +189,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:1",
     "steps": [
+      {
+        "name": "I click on Add User button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -132,7 +202,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:9",
     "steps": [
+      {
+        "name": "I should see Add User screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -140,7 +215,15 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:15",
     "steps": [
-
+      {
+        "name": "I enter user firstname <firstname>",
+        "args": [
+          {
+            "offset": 23,
+            "val": "<firstname>"
+          }
+        ]
+      }
     ]
   },
   {
@@ -148,7 +231,15 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:21",
     "steps": [
-
+      {
+        "name": "I enter user lastname <lastname>",
+        "args": [
+          {
+            "offset": 22,
+            "val": "<lastname>"
+          }
+        ]
+      }
     ]
   },
   {
@@ -156,7 +247,15 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:28",
     "steps": [
-
+      {
+        "name": "I enter user email <email>",
+        "args": [
+          {
+            "offset": 19,
+            "val": "<email>"
+          }
+        ]
+      }
     ]
   },
   {
@@ -164,7 +263,15 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:34",
     "steps": [
-
+      {
+        "name": "I enter user password <password>",
+        "args": [
+          {
+            "offset": 22,
+            "val": "<password>"
+          }
+        ]
+      }
     ]
   },
   {
@@ -172,7 +279,15 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:40",
     "steps": [
-
+      {
+        "name": "I enter password to confirm <confirm>",
+        "args": [
+          {
+            "offset": 28,
+            "val": "<confirm>"
+          }
+        ]
+      }
     ]
   },
   {
@@ -180,7 +295,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:47",
     "steps": [
+      {
+        "name": "I select state from state field",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -188,7 +308,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:54",
     "steps": [
+      {
+        "name": "I hit Add User button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -196,7 +321,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:60",
     "steps": [
+      {
+        "name": "I should see user created succesfully",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -204,7 +334,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:69",
     "steps": [
+      {
+        "name": "I should see all the fields highlighted with error messages",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -212,7 +347,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_add_user_steps.rb:75",
     "steps": [
+      {
+        "name": "I still should be in add user screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -259,7 +399,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_login_steps.rb:21",
     "steps": [
+      {
+        "name": "I login as a admin",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -267,7 +412,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_login_steps.rb:28",
     "steps": [
+      {
+        "name": "I click on Sign In button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -275,7 +425,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_login_steps.rb:34",
     "steps": [
+      {
+        "name": "List view page for the user should be displayed",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -299,7 +454,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:13",
     "steps": [
+      {
+        "name": "I select some state from the dropdown",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -307,7 +467,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:19",
     "steps": [
+      {
+        "name": "I enable disable block some fields",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -315,7 +480,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:25",
     "steps": [
+      {
+        "name": "I click on Save button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -323,7 +493,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:31",
     "steps": [
+      {
+        "name": "I should see the fields that got updated",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -331,7 +506,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:37",
     "steps": [
+      {
+        "name": "I navigate to Notarial Act screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -339,7 +519,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:43",
     "steps": [
+      {
+        "name": "I add a new notarial act",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -347,7 +532,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:49",
     "steps": [
+      {
+        "name": "I should be able to see the act in the list",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -355,7 +545,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:57",
     "steps": [
+      {
+        "name": "I try to create empty notarial act",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -363,7 +558,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:65",
     "steps": [
+      {
+        "name": "I click on delete button of existing Act",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -371,7 +571,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:71",
     "steps": [
+      {
+        "name": "I should not see that act in the list",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -379,7 +584,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:80",
     "steps": [
+      {
+        "name": "I select Logout option from Dropdown",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -387,39 +597,64 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_preferences_steps.rb:86",
     "steps": [
+      {
+        "name": "I should be logged out from the application",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I select Adminstrative Tools option from Dropdown$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_section_steps.rb:3",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_section_steps.rb:1",
     "steps": [
+      {
+        "name": "I select Adminstrative Tools option from Dropdown",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should navigate to Admin screen$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_section_steps.rb:9",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_admin_section_steps.rb:7",
     "steps": [
+      {
+        "name": "I should navigate to Admin screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I will click on Block button by selecting some user$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_block_user_steps.rb:3",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_block_user_steps.rb:1",
     "steps": [
+      {
+        "name": "I will click on Block button by selecting some user",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should see User blocked successfully flash message$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_block_user_steps.rb:9",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_block_user_steps.rb:7",
     "steps": [
+      {
+        "name": "I should see User blocked successfully flash message",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -427,7 +662,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:3",
     "steps": [
+      {
+        "name": "I click on Edit in admin section",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -435,7 +675,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:9",
     "steps": [
+      {
+        "name": "I should see edit user details screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -443,7 +688,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:15",
     "steps": [
+      {
+        "name": "I select pro option from add subscription Dropdown",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -451,7 +701,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:21",
     "steps": [
+      {
+        "name": "I select start date",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -459,7 +714,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:27",
     "steps": [
+      {
+        "name": "I select end date",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -467,7 +727,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:33",
     "steps": [
+      {
+        "name": "I click on Update",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -475,7 +740,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:39",
     "steps": [
+      {
+        "name": "I should see user updated successfully",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -483,7 +753,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:48",
     "steps": [
+      {
+        "name": "I clear value from all the fields",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -491,7 +766,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:54",
     "steps": [
+      {
+        "name": "I should see errors",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -499,7 +779,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:60",
     "steps": [
+      {
+        "name": "I click on close button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -507,7 +792,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:66",
     "steps": [
+      {
+        "name": "I should exit from the pop up",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -515,7 +805,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:74",
     "steps": [
+      {
+        "name": "I click on change user password button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -523,7 +818,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:80",
     "steps": [
+      {
+        "name": "I should see change password screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -531,7 +831,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:86",
     "steps": [
+      {
+        "name": "I enter password that are same",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -539,7 +844,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:92",
     "steps": [
+      {
+        "name": "I should see user password updated successfully",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -547,7 +857,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:100",
     "steps": [
+      {
+        "name": "I enter password that does not match",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -555,7 +870,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:106",
     "steps": [
+      {
+        "name": "I click on change password button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -563,7 +883,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_edit_user_details_steps.rb:112",
     "steps": [
+      {
+        "name": "I should see error messages in change password screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -571,7 +896,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:3",
     "steps": [
+      {
+        "name": "I select owner",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -579,7 +909,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:11",
     "steps": [
+      {
+        "name": "I click on filter button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -587,7 +922,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:17",
     "steps": [
+      {
+        "name": "I should see the result",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -595,7 +935,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:23",
     "steps": [
+      {
+        "name": "I select Admin",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -603,7 +948,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:29",
     "steps": [
+      {
+        "name": "I select Manager",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -611,7 +961,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:35",
     "steps": [
+      {
+        "name": "I select Viewer",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -619,7 +974,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:41",
     "steps": [
+      {
+        "name": "I select Author",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -627,7 +987,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:47",
     "steps": [
+      {
+        "name": "I select User",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -635,7 +1000,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:53",
     "steps": [
+      {
+        "name": "I click on Reset button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -643,7 +1013,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:59",
     "steps": [
+      {
+        "name": "I should see Default User list",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -651,7 +1026,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:67",
     "steps": [
+      {
+        "name": "I select Free",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -659,7 +1039,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:76",
     "steps": [
+      {
+        "name": "I select Pro",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -667,7 +1052,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:82",
     "steps": [
+      {
+        "name": "I select Business",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -675,7 +1065,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:88",
     "steps": [
+      {
+        "name": "I select Free Pro Subscription",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -683,7 +1078,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_filter_user_steps.rb:94",
     "steps": [
+      {
+        "name": "I select Free Business Subscription",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -691,7 +1091,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:1",
     "steps": [
+      {
+        "name": "I will click on Masquerade button by selecting some user",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -699,7 +1104,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:7",
     "steps": [
+      {
+        "name": "I should be redirected to user landing screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -707,7 +1117,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:13",
     "steps": [
+      {
+        "name": "I click on Create New Entry button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -715,7 +1130,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:19",
     "steps": [
+      {
+        "name": "I should be redirected to create new journal entry screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -723,7 +1143,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:26",
     "steps": [
+      {
+        "name": "I fill in application mandatory fields with valid data",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -731,7 +1156,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:33",
     "steps": [
+      {
+        "name": "I click on Save All",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -739,7 +1169,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:39",
     "steps": [
+      {
+        "name": "I should be redirected back to journal list screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -747,39 +1182,64 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:45",
     "steps": [
+      {
+        "name": "I will click on Stop Masquerade button from Username Dropdown",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should be redirected back to admin panel$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:55",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_masquerade_user_steps.rb:54",
     "steps": [
+      {
+        "name": "I should be redirected back to admin panel",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I enter email address in to search box$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_search_user_steps.rb:3",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_search_user_steps.rb:1",
     "steps": [
+      {
+        "name": "I enter email address in to search box",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I click on search button$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_search_user_steps.rb:11",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_search_user_steps.rb:9",
     "steps": [
+      {
+        "name": "I click on search button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should see the user searched for$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/admin_steps/inotary_search_user_steps.rb:17",
+    "file_colon_line": "features/step_definitions/admin_steps/inotary_search_user_steps.rb:15",
     "steps": [
+      {
+        "name": "I should see the user searched for",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -787,7 +1247,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:1",
     "steps": [
+      {
+        "name": "I select Preferences option from Dropdown",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -795,7 +1260,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:7",
     "steps": [
+      {
+        "name": "I should navigate to Preferences screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -803,7 +1273,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:14",
     "steps": [
+      {
+        "name": "I click on edit favorites tab",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -811,7 +1286,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:20",
     "steps": [
+      {
+        "name": "I add a new favorite client",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -819,7 +1299,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:26",
     "steps": [
+      {
+        "name": "I click save",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -827,7 +1312,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:32",
     "steps": [
+      {
+        "name": "I should see Favorite created successfully",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -835,7 +1325,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:39",
     "steps": [
+      {
+        "name": "I click on edit favorites documents tab",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -843,7 +1338,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:45",
     "steps": [
+      {
+        "name": "I add a new favorite document",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -851,7 +1351,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:52",
     "steps": [
+      {
+        "name": "I click save to save favorite",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -859,7 +1364,77 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_add_favorite.rb:58",
     "steps": [
+      {
+        "name": "I should see Favorite document created successfully",
+        "args": [
 
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see please specify email and password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_blocked_user_login_steps.rb:1",
+    "steps": [
+      {
+        "name": "I should see please specify email and password",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I login as a non existing user to inotary$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_blocked_user_login_steps.rb:7",
+    "steps": [
+      {
+        "name": "I login as a non existing user to inotary",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see Invalid email or password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_blocked_user_login_steps.rb:14",
+    "steps": [
+      {
+        "name": "I should see Invalid email or password",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I login as a blocked user$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_blocked_user_login_steps.rb:20",
+    "steps": [
+      {
+        "name": "I login as a blocked user",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see flash message displayed for blocked account$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_blocked_user_login_steps.rb:26",
+    "steps": [
+      {
+        "name": "I should see flash message displayed for blocked account",
+        "args": [
+
+        ]
+      }
     ]
   },
   {
@@ -867,7 +1442,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_by_loading_favorite_steps.rb:1",
     "steps": [
+      {
+        "name": "I load the existing favorite",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -875,7 +1455,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_by_loading_favorite_steps.rb:7",
     "steps": [
+      {
+        "name": "I load the existing document",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -883,7 +1468,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_by_loading_favorite_steps.rb:13",
     "steps": [
+      {
+        "name": "I add another client by loading favorite",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -891,7 +1481,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:1",
     "steps": [
+      {
+        "name": "I click on Create New Entry",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -899,7 +1494,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:9",
     "steps": [
+      {
+        "name": "I should be in create new journal screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -907,7 +1507,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:15",
     "steps": [
+      {
+        "name": "I fill in mandatory fields with valid information",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -915,7 +1520,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:21",
     "steps": [
+      {
+        "name": "I click on Save All button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -923,7 +1533,25 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:27",
     "steps": [
+      {
+        "name": "I should see journal entry in journal list screen",
+        "args": [
 
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I add new client by clicking on add another client link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_create_entry_steps.rb:33",
+    "steps": [
+      {
+        "name": "I add new client by clicking on add another client link",
+        "args": [
+
+        ]
+      }
     ]
   },
   {
@@ -931,15 +1559,25 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:1",
     "steps": [
+      {
+        "name": "I click on share icon",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
-    "source": "^I should see email\\/print journal screen$",
+    "source": "^I should see email print journal screen$",
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:9",
     "steps": [
+      {
+        "name": "I should see email print journal screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -947,7 +1585,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:15",
     "steps": [
+      {
+        "name": "I redact some of the fields",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -955,7 +1598,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:21",
     "steps": [
+      {
+        "name": "I click on preview button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -963,13 +1611,31 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:27",
     "steps": [
+      {
+        "name": "I click on Email button in preview screen",
+        "args": [
 
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see flash message for journal entry sent$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_email_print_steps.rb:33",
+    "steps": [
+      {
+        "name": "I should see flash message for journal entry sent",
+        "args": [
+
+        ]
+      }
     ]
   },
   {
     "source": "^I click on Forgot password link$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_forgot_password_steps.rb:2",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_forgot_password_steps.rb:1",
     "steps": [
       {
         "name": "I click on Forgot password link",
@@ -982,7 +1648,7 @@
   {
     "source": "^I click on Reset password button by entering email address$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_forgot_password_steps.rb:8",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_forgot_password_steps.rb:7",
     "steps": [
       {
         "name": "I click on Reset password button by entering email address",
@@ -995,7 +1661,7 @@
   {
     "source": "^I should see flash message displayed$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_forgot_password_steps.rb:15",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_forgot_password_steps.rb:14",
     "steps": [
       {
         "name": "I should see flash message displayed",
@@ -1010,7 +1676,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:3",
     "steps": [
+      {
+        "name": "I click on view icon",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1018,71 +1689,116 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:11",
     "steps": [
+      {
+        "name": "I should see view journal screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I click on History button$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:17",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:19",
     "steps": [
+      {
+        "name": "I click on History button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should see history screen$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:23",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:25",
     "steps": [
+      {
+        "name": "I should see history screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I click on Email button$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:26",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:28",
     "steps": [
+      {
+        "name": "I click on Email button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I enter email addresses$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:32",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:34",
     "steps": [
+      {
+        "name": "I enter email addresses",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I click on submit button$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:38",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:40",
     "steps": [
+      {
+        "name": "I click on submit button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should see flash message$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:44",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:46",
     "steps": [
+      {
+        "name": "I should see flash message",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I click on version button$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:52",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:54",
     "steps": [
+      {
+        "name": "I click on version button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I should see all the version with the changes$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:58",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_history_version_steps.rb:60",
     "steps": [
+      {
+        "name": "I should see all the version with the changes",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1090,7 +1806,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:1",
     "steps": [
+      {
+        "name": "I click on Username Dropdown",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1098,7 +1819,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:9",
     "steps": [
+      {
+        "name": "I select My Account option from Dropdown",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1106,7 +1832,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:15",
     "steps": [
+      {
+        "name": "I should navigate to My Account screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1114,7 +1845,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:21",
     "steps": [
+      {
+        "name": "I click on Edit icon",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1122,7 +1858,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:27",
     "steps": [
+      {
+        "name": "I should see edit details screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1130,7 +1871,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:33",
     "steps": [
+      {
+        "name": "I update few field values",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1138,7 +1884,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:39",
     "steps": [
+      {
+        "name": "I should see error message",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1146,7 +1897,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:45",
     "steps": [
+      {
+        "name": "I enter valid current password",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1154,7 +1910,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:51",
     "steps": [
+      {
+        "name": "I click on save",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1162,7 +1923,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:57",
     "steps": [
+      {
+        "name": "I should see updated last name in my account screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1170,7 +1936,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_my_account_steps.rb:65",
     "steps": [
+      {
+        "name": "I select Logout",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1178,7 +1949,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:1",
     "steps": [
+      {
+        "name": "I hit Create New Entry",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1186,7 +1962,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:11",
     "steps": [
+      {
+        "name": "I click on Upgrade button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1194,7 +1975,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:17",
     "steps": [
+      {
+        "name": "I click on buynow button in pricing plans screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1202,7 +1988,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:23",
     "steps": [
+      {
+        "name": "I enter valid shipping details",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1210,7 +2001,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:29",
     "steps": [
+      {
+        "name": "I click on Review Order button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1218,7 +2014,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:35",
     "steps": [
+      {
+        "name": "I click on Pay now button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1226,7 +2027,116 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_payment_steps.rb:41",
     "steps": [
+      {
+        "name": "I should see thank you page",
+        "args": [
 
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Solutions tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_pro_user_signup_steps.rb:1",
+    "steps": [
+      {
+        "name": "I click on Solutions tab",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^solutions page for the user should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_pro_user_signup_steps.rb:7",
+    "steps": [
+      {
+        "name": "solutions page for the user should be displayed",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on buy now button of pro user$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_pro_user_signup_steps.rb:13",
+    "steps": [
+      {
+        "name": "I click on buy now button of pro user",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see sign up page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_pro_user_signup_steps.rb:19",
+    "steps": [
+      {
+        "name": "I should see sign up page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I Enter all valid Details in to signup form$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_pro_user_signup_steps.rb:25",
+    "steps": [
+      {
+        "name": "I Enter all valid Details in to signup form",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Continue button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_pro_user_signup_steps.rb:31",
+    "steps": [
+      {
+        "name": "I click on Continue button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Shipping and Billing page should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_pro_user_signup_steps.rb:37",
+    "steps": [
+      {
+        "name": "Shipping and Billing page should be displayed",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should signed up successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_pro_user_signup_steps.rb:43",
+    "steps": [
+      {
+        "name": "I should signed up successfully",
+        "args": [
+
+        ]
+      }
     ]
   },
   {
@@ -1234,7 +2144,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:1",
     "steps": [
+      {
+        "name": "I enter client firstname into search box",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1242,7 +2157,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:9",
     "steps": [
+      {
+        "name": "I click on search icon",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1250,7 +2170,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:15",
     "steps": [
+      {
+        "name": "I should see journal entry searched for",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1258,7 +2183,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:23",
     "steps": [
+      {
+        "name": "I click on edit icon",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1266,7 +2196,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:31",
     "steps": [
+      {
+        "name": "I should see edit journal screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1274,7 +2209,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:37",
     "steps": [
+      {
+        "name": "I modify some fields data",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1282,7 +2222,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_search_edit_steps.rb:43",
     "steps": [
+      {
+        "name": "I should be able to save the changes",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1306,7 +2251,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:13",
     "steps": [
+      {
+        "name": "I Enter all valid Details",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1314,7 +2264,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:19",
     "steps": [
+      {
+        "name": "I click on Join For Free button",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1322,7 +2277,12 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:25",
     "steps": [
+      {
+        "name": "I should see alert pop up",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
@@ -1330,63 +2290,64 @@
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:31",
     "steps": [
+      {
+        "name": "I click on cancel should be in Signup screen",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
-    "source": "^confirmation message should be displayed$",
+    "source": "^I should see signin flash message$",
     "flags": "",
     "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:37",
     "steps": [
+      {
+        "name": "I should see signin flash message",
+        "args": [
 
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see all the fields with error messages$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:45",
+    "steps": [
+      {
+        "name": "I should see all the fields with error messages",
+        "args": [
+
+        ]
+      }
     ]
   },
   {
     "source": "^I Enter all invalid Details$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:44",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:53",
     "steps": [
+      {
+        "name": "I Enter all invalid Details",
+        "args": [
 
+        ]
+      }
     ]
   },
   {
     "source": "^I still should be in signup screen$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:51",
+    "file_colon_line": "features/step_definitions/user_steps/inotary_signup_steps.rb:60",
     "steps": [
+      {
+        "name": "I still should be in signup screen",
+        "args": [
 
-    ]
-  },
-  {
-    "source": "^I login as a common user$",
-    "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_user_login_steps.rb:1",
-    "steps": [
-
-    ]
-  },
-  {
-    "source": "^I should see please specify email and password$",
-    "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_user_login_steps.rb:9",
-    "steps": [
-
-    ]
-  },
-  {
-    "source": "^I login as a non existing user to inotary$",
-    "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_user_login_steps.rb:15",
-    "steps": [
-
-    ]
-  },
-  {
-    "source": "^I should see Invalid email or password$",
-    "flags": "",
-    "file_colon_line": "features/step_definitions/user_steps/inotary_user_login_steps.rb:22",
-    "steps": [
-
+        ]
+      }
     ]
   }
 ]

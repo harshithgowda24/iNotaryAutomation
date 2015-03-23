@@ -2,7 +2,7 @@ module WatirPageHelper::Inotary
   module AdminNavigatePage
     extend WatirPageHelper::ClassMethods
     
-    direct_url "http://it.inotary.qwinixtech.com/"
+    direct_url "http://uat.inotary.qwinixtech.com/"
      
    #Redirecting User to Admin Screen
 

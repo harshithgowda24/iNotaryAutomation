@@ -4,7 +4,7 @@ module WatirPageHelper::Inotary
   module ActionPage
     extend WatirPageHelper::ClassMethods
     
-    direct_url "http://it.inotary.qwinixtech.com/"
+    direct_url "http://uat.inotary.qwinixtech.com/"
 
    #Search
 
@@ -104,10 +104,16 @@ module WatirPageHelper::Inotary
    @browser.input(:xpath, "//div[2]/div/div/div[3]/input").when_present.click
    end
 
-   def verify_flash_msg
-   @browser.p(:xpath, "//div[2]/div[2]/div/p").exists?
-   return "Document History Sent Successfully"
-   end
+   def flash_msg_after_document_history_sent
+   @browser.a(:xpath, "//div[2]/div[5]/div[3]/a").wait_until_present
+     flash = @browser.p(:xpath, "//div[2]/div[2]/div/p").text
+     flash_text = "The Document History has been sent"
+  if flash.include? flash_text
+    return "The Document History has been sent"
+  else
+   raise Exception.new "No error message displayed"
+  end
+  end
 
     #Version
 
@@ -167,6 +173,18 @@ module WatirPageHelper::Inotary
    def email_button_in_preview_screen
    	@browser.a(:xpath, "//div[2]/div[7]/a[2]").when_present.click
    end
+
+
+   def flash_msg_after_journal_entry_sent
+   @browser.a(:xpath, "//div[2]/div[5]/div[3]/a").wait_until_present
+     flash = @browser.p(:xpath, "//div[2]/div[2]/div/p").text
+     flash_text = "The Journal Entry has been sent"
+  if flash.include? flash_text
+    return "The Journal Entry has been sent"
+  else
+   raise Exception.new "No error message displayed"
+  end
+  end
 
 
    end
